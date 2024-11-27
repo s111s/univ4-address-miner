@@ -27,6 +27,9 @@ This repository contains tools to participate in the **Uniswap V4 Address Challe
   ```bash
   $ python3 univ4-verify-salt.py 0x72bed203c9a5eff37e1f55be91f742def6e0e5c7ebf3d141f7d8a81436e3f4f0
   ```
+  
+  Change the number in `salt_int += ...` to whatever you want and make it your own increasing logic.
+  
 
 - **`CheckScore.sol`**
   A Solidity smart contract to verify the salt's score directly on the blockchain. This ensures that the on-chain verification matches the Python scripts.
@@ -39,7 +42,7 @@ This repository contains tools to participate in the **Uniswap V4 Address Challe
 
 - Clone the repository:
 ```bash
-$ git clone https://github.com/your-username/univ4-address-challenge-miner.git
+$ git clone https://github.com/s111s/univ4-address-challenge-miner.git
 $ cd univ4-address-challenge-miner
 ```
 
